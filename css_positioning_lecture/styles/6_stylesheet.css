@@ -1,0 +1,32 @@
+div {
+  border-radius: 5px;
+}
+
+#header {
+  height: 50px;
+  background-color: pink;
+  margin-bottom: 10px;
+}
+
+.left {
+  height: 300px;
+  width: 150px;
+  background-color: blue;
+  float: left;
+  margin-bottom: 10px;
+}
+
+.right {
+  height: 300px;
+  width: 150px;
+  background-color: blue;
+  float: right;
+  margin-bottom: 10px;
+}
+
+#footer {
+  height: 50px;
+  background-color: pink;
+  /*Add your CSS here!*/
+
+}
