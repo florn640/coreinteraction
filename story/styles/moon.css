@@ -6,3 +6,14 @@ div img {
    margin-right: auto ;
   
 }
+#text1 {
+  z-index: 100;
+  text-align: left;
+  position: absolute;
+  color: black;
+  font-size: 16px;
+  font-family: courier prime;
+  left: 20px;
+  top: 110px;
+  
+}
