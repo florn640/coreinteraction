@@ -7,15 +7,16 @@ div img {
   
 }
 
-.left {
-  float: left; 
-  width:50%;
+.active {
+    
+        -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
 }
 
-.right {
-  float: right; 
-  width:50%;
-}
 
 #text1 {
   z-index: 100;

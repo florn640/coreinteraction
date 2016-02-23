@@ -1,11 +1,28 @@
 div img {
    display: block;
-   width: 62%;
-   height: 62%;
+   width: 60%;
    margin-left: auto ;
    margin-right: auto ;
   
 }
+.image{
+  z-index: 100
+   display: inline-block;
+   width: 40%;
+   margin-left: 500 ;
+   margin-right: auto ;
+}
+.active {
+    
+        -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+}
+
+
 #text1 {
   z-index: 100;
   text-align: center;

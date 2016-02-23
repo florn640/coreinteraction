@@ -4,6 +4,10 @@ div img {
    margin-left: auto ;
    margin-right: auto ;
   
+}
+
+.active {
+    
         -moz-transform: scaleX(-1);
         -o-transform: scaleX(-1);
         -webkit-transform: scaleX(-1);
@@ -11,6 +15,8 @@ div img {
         filter: FlipH;
         -ms-filter: "FlipH";
 }
+
+
 #text1 {
   z-index: 100;
   text-align: center;
@@ -22,3 +28,4 @@ div img {
   top: 60px;
   
 }
+
