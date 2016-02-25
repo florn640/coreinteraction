@@ -24,8 +24,18 @@ span.circle {
         background-color: black;
 }
 
-.span.circle:hover {
-  color: white;
+#menu1:hover {
+ background-color: white;
+ 
+}
+
+
+#menu2:hover {
+ background-color: white;
+
+}
+#menu3:hover {
+ background-color: white;
 
 }
 
