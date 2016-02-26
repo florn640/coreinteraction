@@ -30,3 +30,21 @@ html {
   padding:0;
   margin:0;
 }
+
+div {
+  margin-left: 35%;
+  margin-top: -120px;
+}
+
+.link {
+  margin: auto;
+  font-size: 28px;
+  font-family: impact;
+  color: black;
+  text-decoration: none;
+  
+}
+  
+.link:hover {
+  color: white;
+}  
