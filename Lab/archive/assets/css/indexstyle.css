@@ -6,12 +6,30 @@ html {
   overflow: hidden;
 }
 
+.back{
+ position:absolute;
+ top:-70px;
+ left:0px;
+ background-image:url("assets/img/baloonsaloon.jpg");
+ padding:0px;
+ margin:0px;
+  
+}
+
+.background{
+  margin:0px;
+  width: 1300px;
+  height: 800px;
+}
+
+
 #text1 {
   z-index: 100;
   text-align: center;
-  color: black;
+  color: white;
   font-size: 150px;
   font-family: impact;
+  position:relative;
     
 }
 
@@ -50,6 +68,7 @@ span.circle {
 #menu1 {
     float:left;
     width:100px;
+    position:relative;
     
 }
 
@@ -57,11 +76,13 @@ span.circle {
     display: inline-block;
     
     width:100px;
+    position:relative;
     
 }
 
 #menu3 {
     float:right;
     width:100px;
+    position:relative;
    
 }

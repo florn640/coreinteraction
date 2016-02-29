@@ -6,6 +6,23 @@ div img {
    margin-right: auto ;
   
 }
+
+.back{
+ position:absolute;
+ top:0px;
+ left:0px;
+ background-image:url("images/paradise.jpg");
+ padding:0px;
+ margin:0px;
+  
+}
+
+.house{
+  margin:0px;
+  width: 1300px;
+  height: 800px;
+}
+
 .active {
     
         -moz-transform: scaleX(-1);
@@ -27,4 +44,30 @@ div img {
   left: 200px;
   top: 20px;
   
+}
+.left{
+  position:relative;
+  top:0px;
+}
+
+.right{
+  position:relative;
+  top:0px;
+}
+.left-click {
+    top:0px;
+    left:0px;
+    height:100%;
+    width:50%;
+    position:absolute;
+    z-index:200;
+}
+
+.right-click {
+    top:0px;
+    right:0px;
+    height:100%;
+    width:50%;
+    position:absolute;
+    z-index:200;
 }

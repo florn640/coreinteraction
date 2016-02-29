@@ -10,15 +10,14 @@ $( document ).ready(function() {
 });
 
 $( document ).ready(function() {
-  
    // use the below to get a random page
     var a = location.pathname.split("/");
     $.each( a, function( i, l ){
      console.log(l);
       if (l == 'index.html') {
-        var num = getRandomInt(1,50);
-        console.log(num)
-        // window.location.replace("");
+        var num = getRandomInt(1,9);
+        console.log(num);
+        window.location.replace(num+".html");
       }
     });
   
@@ -36,13 +35,19 @@ $( document ).ready(function() {
         if (currentMousePos.x > width/2) {
           if ($('.flip').hasClass('active')) {
               $('.flip').removeClass('active');
+             
           }
+          // code to switch cursor icon on the right
+          $(".right-click").css( 'cursor', 'url(cursor.png), auto' );
         } else {
+
           if ($('.flip').hasClass('active')) {
               
           } else {
             $('.flip').addClass('active');
           }
+          // code to switch cursor icon on the left
+          $(".left-click").css( 'cursor', 'url(images/cursor.png), auto' );
         }
       
     });

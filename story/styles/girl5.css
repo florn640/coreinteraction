@@ -39,3 +39,21 @@ div img {
   top: 390px;
   
 }
+
+.left-click {
+    top:0px;
+    left:0px;
+    height:100%;
+    width:50%;
+    position:absolute;
+    z-index:200;
+}
+
+.right-click {
+    top:0px;
+    right:0px;
+    height:100%;
+    width:50%;
+    position:absolute;
+    z-index:200;
+}
