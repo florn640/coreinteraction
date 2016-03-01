@@ -1,8 +1,24 @@
 div img {
    display: block;
-   width: 60%;
-   margin-left: auto ;
+   width: 40%;
+   margin-left: 280px ;
    margin-right: auto ;
+}
+
+.back{
+ position:absolute;
+ top:0px;
+ left:0px;
+ background-image:url("images/girl3back.jpg");
+ padding:0px;
+ margin:0px;
+  
+}
+
+.pillow{
+  margin:0px;
+  width: 1300px;
+  height: 800px;
 }
 
 .active {
@@ -23,7 +39,7 @@ div img {
   color: black;
   font-size: 18px;
   font-family: courier prime;
-  left: 750px;
+  left: 900px;
   top: 60px;
   
 }

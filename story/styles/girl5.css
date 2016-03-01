@@ -1,8 +1,33 @@
+html {
+  width: 100%;
+  height: 100%;
+  clip: auto;
+  position: absolute;
+  overflow: hidden;
+}
+
 div img {
    display: block;
-   width: 64%;
-   margin-left: auto ;
+   width: 28%;
+   margin-top: -30px;
+   margin-left: 150px ;
    margin-right: auto ;
+  
+}
+.back{
+ position:absolute;
+ top:0px;
+ left:230px;
+ background-image:url("images/girl5back.jpg");
+ padding:0px;
+ margin:0px;
+  
+}
+
+.room{
+  margin:0px;
+  width: 1050px;
+  height: 650px;
   
 }
 
@@ -14,6 +39,7 @@ div img {
         transform: scaleX(-1);
         filter: FlipH;
         -ms-filter: "FlipH";
+         position:relative;
 }
 
 
@@ -24,8 +50,8 @@ div img {
   color: black;
   font-size: 20px;
   font-family: courier prime;
-  left: 50px;
-  top: 170px;
+  left: 60px;
+  top: 400px;
   
 }
 #text2 {
@@ -35,8 +61,8 @@ div img {
   color: black;
   font-size: 20px;
   font-family: courier prime;
-  left: 950px;
-  top: 390px;
+  left: 150px;
+  top: 470px;
   
 }
 

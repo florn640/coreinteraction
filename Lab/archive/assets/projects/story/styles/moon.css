@@ -1,7 +1,7 @@
 div img {
    display: block;
    width: 55%;
-   height: 55%;
+   top: -0px;
    margin-left: auto ;
    margin-right: auto ;
   
@@ -24,7 +24,37 @@ div img {
   color: black;
   font-size: 16px;
   font-family: courier prime;
-  left: 20px;
-  top: 110px;
+  left: 33px;
+  top: 50px;
   
+}
+
+#text2 {
+  z-index: 100;
+  text-align: left;
+  position: absolute;
+  color: black;
+  font-size: 16px;
+  font-family: courier prime;
+  left: 930px;
+  top: 390px;
+  
+}
+
+.left-click {
+    top:0px;
+    left:0px;
+    height:100%;
+    width:50%;
+    position:absolute;
+    z-index:200;
+}
+
+.right-click {
+    top:0px;
+    right:0px;
+    height:100%;
+    width:50%;
+    position:absolute;
+    z-index:200;
 }

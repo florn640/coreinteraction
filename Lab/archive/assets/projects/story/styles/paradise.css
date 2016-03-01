@@ -1,28 +1,38 @@
-html { 
-  background: <img src="images/paradise.jpg"/> no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
 
 div img {
    display: block;
-   width: 60%;
-   margin-left: auto ;
-   margin-right: auto ;
+   width: 50%;
+   margin-left: 100px;
+   margin-top: 300px;
+}
+
+.back{
+ position:absolute;
+ top:0px;
+ left:0px;
+ background-image:url("images/paradise.jpg");
+ padding:0px;
+ margin:0px;
   
 }
 
+.paradise{
+  margin:0px;
+  width: 1300px;
+  height: 800px;
+}
+
+
 .active {
-    
+        
         -moz-transform: scaleX(-1);
         -o-transform: scaleX(-1);
         -webkit-transform: scaleX(-1);
         transform: scaleX(-1);
         filter: FlipH;
         -ms-filter: "FlipH";
+        position:relative;
+        
 }
 
 
@@ -33,7 +43,42 @@ div img {
   color: black;
   font-size: 15px;
   font-family: courier prime;
-  left: 331px;
+  left:100px;
   top: 20px;
   
+  
+}
+
+#left {
+  width:50%;
+    height:100%;
+    float: left;
+}
+
+.left{
+  position:relative;
+  top:0px;
+}
+
+.right{
+  position:relative;
+  top:0px;
+}
+
+.left-click {
+    top:0px;
+    left:0px;
+    height:100%;
+    width:50%;
+    position:absolute;
+    z-index:200;
+}
+
+.right-click {
+    top:0px;
+    right:0px;
+    height:100%;
+    width:50%;
+    position:absolute;
+    z-index:200;
 }

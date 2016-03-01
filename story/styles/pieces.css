@@ -1,7 +1,8 @@
 div img {
    display: block;
-   width: 55%;
-   height: 55%;
+   width: 68%;
+   height: 68%;
+   margin-top: -40px;
    margin-left: auto ;
    margin-right: auto ;
   
@@ -49,8 +50,8 @@ div img {
   color: black;
   font-size: 18px;
   font-family: courier prime;
-  left: 170px;
-  top: 460px;
+  left: 150px;
+  top: 500px;
   
 }
 

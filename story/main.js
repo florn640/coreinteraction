@@ -38,7 +38,7 @@ $( document ).ready(function() {
              
           }
           // code to switch cursor icon on the right
-          $(".right-click").css( 'cursor', 'url(cursor.png), auto' );
+          $(".right-click").css( 'cursor', 'url(images/cursorleft.png), auto' );
         } else {
 
           if ($('.flip').hasClass('active')) {

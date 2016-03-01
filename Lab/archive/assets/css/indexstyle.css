@@ -18,17 +18,25 @@
 
 
 body{
-    background-image:url('../img/baloonsaloon.jpg');
+    background-image:url('../img/version3.jpg');
     background-size:cover;
-    background-position: 100px 280px;
+    background-position: 200px 250px;
     font-family: 'din_condensedbold';
 }
+
+body:hover{
+    background-image:url('../img/version2.jpg');
+    background-size:cover;
+    background-position: 200px 250px;
+    
+}
+
 
 .back{
  position:absolute;
  top:-70px;
  left:0px;
- background-image:url("assets/img/baloonsaloon.jpg");
+ 
  padding:0px;
  margin:0px;
   
@@ -40,7 +48,27 @@ body{
   height: 800px;
 }
 
-
+#texttitle {
+  z-index: 100;
+  text-align: center;
+  color: white;
+  font-size: 200px;
+  margin-top: 35px;
+  font-family: 'din_condensedbold';
+  position:relative;
+    
+}
+.menus {
+  z-index: 100;
+  text-align: center;
+  color: white;
+  font-size: 200px;
+  left: auto;
+  right: auto;
+  font-family: 'din_condensedbold';
+  position:relative;
+    
+}
 #text1 {
   z-index: 100;
   text-align: center;
@@ -52,62 +80,25 @@ body{
 }
 
 
-span.circle {
-        border-radius: 50%;
-        width: 80px;
-        height: 80px;
-        display: inline-block;
-        background-color: black;
-}
-
-span.circle:hover{
-    background-color:red;
-}
-
-#container {
-    background:blue;
-    width:300px;
-    text-align: center;
-    margin-left: auto ;
-    margin-right: auto ;
-    margin-top: 100px;
-}
-
-#menu1 {
-    float:left;
-    width:100px;
-    position:relative;
-    
-}
-
-#menu2 {
-    display: inline-block;
-    
-    width:100px;
-    position:relative;
-    
-}
-
-#menu3 {
-    float:right;
-    width:100px;
-    position:relative;
-   
-}
 
 .btmP{
+    position: absolute;
     position:fixed; 
     bottom:0px;
+    left: 5px;
 }
 
 a {
   margin: auto;
-  font-size: 28px;
-  color: black;
+  font-size: 33px;
+  color: yellow;
   text-decoration: none;
-  
+ 
+ 
 }
   
 a:hover {
-  color: red;
+  color: blue;
+  font-size: 60px;
+  
 }  
