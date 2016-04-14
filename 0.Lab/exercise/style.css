@@ -1,0 +1,45 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+.container{
+    max-width: 1000px;
+    background-color:yellow;
+}
+
+#column1 {
+    width:50%;
+    height:200px;
+    background-color: red;
+}
+
+#column2 {
+    width:20%;
+    height:200px;
+    background-color: green;
+    float:left;
+}
+
+#column3 {
+    width:30%;
+    height:300px;
+    background-color: blue;
+    margin-left:20%;
+}
+
+@media only screen and (max-width: 760px) {
+    body {
+        background-color: lightblue;
+    }
+    
+    #column2 {
+    float:none;
+}
+
+    #column3 {
+    width:100%;
+    height:300px;
+    background-color: pink;
+}
+}

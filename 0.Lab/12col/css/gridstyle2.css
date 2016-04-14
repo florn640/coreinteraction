@@ -1,0 +1,28 @@
+.boxOne{
+  border:0.5px solid black;
+  background: white;
+  width: 110px;
+  height: 90px;
+  float:left;
+}  
+
+.boxTwo{
+  border: 0.5px solid black;
+  background: white;
+  width: 110px;
+  height: 90px;
+  float:left;
+}  
+
+.boxThree{
+  border: 0.5px solid black;
+  background: white;
+  width: 10px;
+  height: 60px;
+  float:left;
+}  
+
+#container {
+  width:1250px;
+  height:200px;
+}

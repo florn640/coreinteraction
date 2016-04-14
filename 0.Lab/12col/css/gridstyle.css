@@ -1,0 +1,20 @@
+.boxOne{
+  border:0.5px solid black;
+  background: white;
+  width: 50px;
+  height: 50px;
+  float:left;
+}  
+
+.boxTwo{
+  border: 0.5px solid black;
+  background: white;
+  width: 50px;
+  height: 50px;
+  float:left;
+}  
+
+#container {
+  width:650px;
+  height:650px;
+}

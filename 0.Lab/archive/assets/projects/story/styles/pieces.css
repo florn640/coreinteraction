@@ -1,0 +1,73 @@
+div img {
+   display: block;
+   width: 55%;
+   height: 55%;
+   margin-left: auto ;
+   margin-right: auto ;
+  
+}
+
+.active {
+    
+        -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+}
+
+
+#text1 {
+  z-index: 100;
+  text-align: center;
+  position: absolute;
+  color: black;
+  font-size: 18px;
+  font-family: courier prime;
+  left: 200px;
+  top: 40px;
+  
+}
+
+#text2 {
+  z-index: 100;
+  text-align: center;
+  position: absolute;
+  color: black;
+  font-size: 18px;
+  font-family: courier prime;
+  left: 800px;
+  top: 250px;
+  
+}
+
+#text3 {
+  z-index: 100;
+  text-align: center;
+  position: absolute;
+  color: black;
+  font-size: 18px;
+  font-family: courier prime;
+  left: 170px;
+  top: 460px;
+  
+}
+
+.left-click {
+    top:0px;
+    left:0px;
+    height:100%;
+    width:50%;
+    position:absolute;
+    z-index:200;
+}
+
+.right-click {
+    top:0px;
+    right:0px;
+    height:100%;
+    width:50%;
+    position:absolute;
+    z-index:200;
+}
